@@ -30,7 +30,7 @@
     }
     .keyboard {
       display: grid;
-      grid-template-columns: repeat(10, 1fr);
+      grid-template-columns: repeat(11, 1fr);
       gap: 5px;
       margin: 20px auto 20px;
       max-width: 600px;
@@ -99,7 +99,7 @@
 </head>
 <body>
 
-  <div class="card emoji-card">🛑🤚🗡️👦</div>
+  <div class="card emoji-card">🤚🚫👉👦🪢🗡️🙏🌤️</div>
   <div class="card text-card">מה האמירה המסתתרת באמוג'י?</div>
   <div class="card"><input type="text" id="output" class="output" readonly /></div>
 
@@ -117,9 +117,9 @@
     let userAnswer = "";
 
     const keyboardLayout = [
-      ['←','פ','ם','ן','ו','ט','א','ר','ק'],
+      ['←','פ','ם','ן','ו','ט','א','ר','ק','',''],
       ['ENTER','ף','ך','ל','ח','י','ע','כ','ג','ד','ש'],
-      ['ץ','ת','צ','מ','נ','ה','ב','ס','ז']
+      ['','','ץ','ת','צ','מ','נ','ה','ב','ס','ז']
     ];
 
     const keyboard = document.getElementById("keyboard");
